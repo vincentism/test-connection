@@ -1,0 +1,97 @@
+{
+  "conf": {
+    "headers": [],
+    "redirects": [],
+    "rewrites": [],
+    "caches": [],
+    "has404": true
+  },
+  "has404": true,
+  "nextRoutes": [
+    {
+      "path": "/isr/tutorial",
+      "isStatic": false,
+      "initialRevalidateSeconds": 3600,
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/isr/tutorial.json"
+    },
+    {
+      "path": "/test/vvv1",
+      "isStatic": true,
+      "srcRoute": "/test/[id]",
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/test/vvv1.json"
+    },
+    {
+      "path": "/test/vvv2",
+      "isStatic": true,
+      "srcRoute": "/test/[id]",
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/test/vvv2.json"
+    },
+    {
+      "path": "/test/vvv3",
+      "isStatic": true,
+      "srcRoute": "/test/[id]",
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/test/vvv3.json"
+    },
+    {
+      "path": "/isr/news",
+      "isStatic": false,
+      "initialRevalidateSeconds": 300,
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/isr/news.json"
+    },
+    {
+      "path": "/isr/article",
+      "isStatic": false,
+      "initialRevalidateSeconds": 1800,
+      "dataRoute": "/_next/data/l9L5gRFjftxNJawnxJfrb/isr/article.json"
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/",
+      "isStatic": true
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/ssr"
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    },
+    {
+      "path": "^/_next/data/l9L5gRFjftxNJawnxJfrb/isr/article.json$",
+      "isStatic": false
+    },
+    {
+      "path": "^/_next/data/l9L5gRFjftxNJawnxJfrb/isr/news.json$",
+      "isStatic": false
+    },
+    {
+      "path": "^/_next/data/l9L5gRFjftxNJawnxJfrb/isr/tutorial.json$",
+      "isStatic": false
+    },
+    {
+      "path": "^/_next/data/l9L5gRFjftxNJawnxJfrb/ssr.json$",
+      "isStatic": false
+    },
+    {
+      "path": "/_next/image"
+    },
+    {
+      "path": "/api/:id"
+    },
+    {
+      "path": "/test/:id"
+    },
+    {
+      "path": "^/_next/data/l9L5gRFjftxNJawnxJfrb/test/(:^/+?)\\.json$",
+      "isStatic": false
+    }
+  ]
+}
